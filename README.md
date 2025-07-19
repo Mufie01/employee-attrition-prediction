@@ -1,16 +1,16 @@
-# 🏢 IBM HR Analytics – Employee Attrition Prediction
+#  IBM HR Analytics – Employee Attrition Prediction
 
 This project uses machine learning to predict whether an employee is likely to leave the company, based on historical HR data provided by IBM.
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To build a classification model that can predict employee attrition using real-world HR attributes. The goal is to help HR departments identify at-risk employees and take proactive retention measures.
 
 ---
 
-## 📦 Dataset
+##  Dataset
 
 - Source: [IBM HR Analytics Dataset on Kaggle](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
 - File Used: `WA_Fn-UseC_-HR-Employee-Attrition.csv`
@@ -18,7 +18,7 @@ To build a classification model that can predict employee attrition using real-w
 
 ---
 
-## 🧰 Tools & Libraries
+##  Tools & Libraries
 
 - **Language**: Python  
 - **Libraries**: `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imbalanced-learn`, `xgboost`
@@ -26,7 +26,7 @@ To build a classification model that can predict employee attrition using real-w
 
 ---
 
-## 🔍 Workflow Overview
+##  Workflow Overview
 
 ### 1. Data Loading
 - Read the CSV file using `pandas`.
@@ -67,40 +67,40 @@ Used 5-fold cross-validation with **Recall** as the main performance metric to m
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 
 - Employees doing **OverTime**, in **Sales** or **R&D** departments, or with low **job satisfaction**, were more likely to leave.
 - Random Forest gave the highest recall, making it a strong candidate for HR prediction pipelines.
 
 ---
 
-## 📁 Files Included
+##  Files Included
 
 - `Employee_Attrition_Prediction.ipynb`: The complete notebook.
 - `README.md`: This file.
 
 ---
 
-## 🎥 Demo Video
+##  Demo Video
 
-[Upload your screen recording link here]
+
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This machine learning project demonstrates how predictive analytics can assist HR teams in identifying attrition risks early, allowing them to take targeted employee engagement or retention actions.
 
 ---
 
-## 🔗 Links
+##  Links
 
-- 📘 [Kaggle Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
-- 💡 [Project Inspiration](https://www.ibm.com/analytics/hr-employee-attrition)
+-  [Kaggle Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset)
+-  [Project Inspiration](https://www.ibm.com/analytics/hr-employee-attrition)
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **[Mohmed Sayeed Mufeezdeen]**
 _Data Science Student – Week 4 Project_  
